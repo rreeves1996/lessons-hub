@@ -16,7 +16,7 @@ export default function Home() {
 				<Link
 					href='/dashboard'
 					className='text-indigo-100 text-decoration: underline underline-offset-1 hover:text-opacity-90'>
-					continue without signing in
+					create an account
 				</Link>
 			</header>
 		</main>
