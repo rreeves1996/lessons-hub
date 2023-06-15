@@ -1,6 +1,7 @@
-import Navbar from '@/components/Navbar';
+import { Providers } from './providers';
 import './globals.css';
 import { Inter } from 'next/font/google';
+import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -19,9 +20,11 @@ export default function RootLayout({
 		<html lang='en'>
 			<body
 				className={`${inter.className} bg-gradient-radial from-sky-800 from-10% to-indigo-800 to-110% text-indigo-100 w-screen h-screen flex flex-col items-center`}>
-				<Navbar />
-				<main className='mb-auto'>{children}</main>
-				<Footer />
+				<Providers>
+					<Navbar />
+					<main className='mb-auto'>{children}</main>
+					<Footer />
+				</Providers>
 			</body>
 		</html>
 	);
