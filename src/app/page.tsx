@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Home() {
 	return (
-		<main className='bg-gradient-radial from-sky-900 from-10% to-indigo-900 to-110% w-screen h-screen flex items-center'>
+		<main className='flex items-center h-full'>
 			<header className='text-center w-full text-indigo-100'>
 				<Link
 					href='/login'
