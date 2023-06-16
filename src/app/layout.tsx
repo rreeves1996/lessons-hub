@@ -22,7 +22,7 @@ export default function RootLayout({
 				className={`${inter.className} bg-gradient-radial from-sky-800 from-10% to-indigo-800 to-110% text-indigo-100 w-screen h-screen flex flex-col items-center`}>
 				<Providers>
 					<Navbar />
-					<main className='mb-auto'>{children}</main>
+					<main className='mb-auto w-full max-w-7xl'>{children}</main>
 					<Footer />
 				</Providers>
 			</body>

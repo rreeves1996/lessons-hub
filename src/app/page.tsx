@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Home() {
 	return (
-		<main className='flex items-center h-full'>
+		<main className='flex items-center '>
 			<header className='text-center w-full text-indigo-100'>
 				<Link
 					href='/login'

@@ -8,7 +8,7 @@ export default function Navbar() {
 				<header>
 					<h3 className='text-3xl'>lessonHUB</h3>
 				</header>
-				<ul className='flex flex-row gap-4'>
+				<ul className='flex flex-col gap-4'>
 					<li>
 						<Link href='/dashboard'>Home</Link>
 					</li>
