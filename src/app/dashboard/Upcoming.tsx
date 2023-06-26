@@ -15,29 +15,25 @@ import { FaBell } from 'react-icons/fa';
 
 export default function Upcoming() {
 	return (
-		<Card>
+		<Card bg='whiteAlpha.900'>
 			<CardHeader className='flex items-center'>
 				<FaBell className='mr-2' />
 
 				<Heading size='md'>Upcoming</Heading>
 			</CardHeader>
 
-			<CardBody>
+			<CardBody pt='0'>
 				<Stack divider={<StackDivider />} spacing='2'>
 					<Box>
-						<Heading size='md' textTransform='uppercase'>
-							6:30pm - 7:00pm
-						</Heading>
-					</Box>
-
-					<Box>
-						<Heading size='s' textTransform='uppercase'>
+						<Heading size='md' textTransform='uppercase' mb='1'>
 							Jim Bob - Guitar
 						</Heading>
 
-						<Text pt='2' fontSize='sm'>
-							Contact Info
-						</Text>
+						<Heading size='sm' textTransform='uppercase' mb='1'>
+							6:30pm - 7:00pm
+						</Heading>
+
+						<Text fontSize='sm'>Contact Info</Text>
 
 						<div className='mt-1 mb-2'>
 							<Button size='xs' colorScheme='blue' variant='outline'>
